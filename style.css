@@ -1,0 +1,139 @@
+#picture {
+    width: 300px;
+    border-radius: 50%;
+}
+
+body {
+    text-align: center;
+    padding-top: 900px;
+   
+}
+
+#welcome {
+    position: absolute;
+    height: 950px;
+    width: 100%;
+    top: 0;
+    bottom:0;
+    background: linear-gradient(#000d3b 0%, #7ba8e3, #000d3b 100%);
+    display: table;
+    z-index: 10;
+}
+
+#Uses{
+    z-index: 10;
+    font-size: 40px;
+    padding: 50px;
+}
+
+#discription{
+    z-index: 10;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.manufaturing-process{
+    font-size: 40px;
+    padding: 50px;
+}
+
+#Contacts{
+    z-index: 10;
+    width: 100%;
+}
+   
+
+.welcome-inner {
+    vertical-align: middle;
+    position:relative;
+    display: table-cell;
+   
+}
+
+#text {
+    font-family:'Dancing Script', cursive;
+    font-size: 95px;
+}
+
+#bio {
+    font-size: 30px;
+    padding: 50px;
+}
+
+.line {
+    height: 5px;
+    width: 200px;
+    background-color: black;
+    margin: 4px auto;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.ul_tag {
+    position:fixed;
+    list-style: none;
+    top:0px;
+    z-index: 999;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background-color: aliceblue;
+    text-decoration: none;
+    text-shadow: 3px 1px grey;
+
+}
+
+.li_tag {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+   
+}
+.li_tag:hover{
+    background-color:dodgerblue;
+    font-size: 40px;
+    text-decoration:underline;
+}
+
+.hyper_link{
+    font-size: 35px;
+}
+
+.hyper_link:hover{
+    color: deeppink;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Maps{
+    width:100%;
+}
+
+
+#Contacts h2{
+    display: inline;
+}
+
+.fa fa-envelope{
+    font-size:50px;
+}
+
+.fa fa instagram{
+    font-size: 50px;
+}
+
+.steps {
+    text-align: left;
+    padding-left: 80px;
+    font-size: 40px;
+}
